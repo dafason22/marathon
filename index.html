@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabora Green Marathon &amp; Malezi Bora Forum 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===================== HEADER / NAV ===================== -->
+<header class="site-header" id="header">
+  <div class="container header__inner">
+    <a href="#home" class="brand">
+      <span class="brand__icon">🌲</span>
+      <span class="brand__text">Tabora Green 2026</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav__link is-active">Home</a>
+      <a href="#schedule" class="nav__link">Schedule</a>
+      <a href="#payment" class="nav__link">Payment</a>
+      <a href="#register" class="nav__link">Register</a>
+      <a href="#sponsors" class="nav__link">Sponsors</a>
+      <a href="#gallery" class="nav__link">Gallery</a>
+      <a href="#contact" class="nav__link">Contact</a>
+      <a href="#" class="nav__link" title="Admin panel">Admin</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== 1. HOME / HERO ===================== -->
+<section class="hero" id="home">
+  <div class="hero__glow"></div>
+  <div class="container hero__inner">
+    <p class="pill pill--date">📅 25 July 2026 | 6:00 AM</p>
+    <h1 class="hero__title">Tabora Green Marathon<br><span>&amp; Malezi Bora Forum 2026</span></h1>
+    <p class="hero__tagline">Run for Health &bull; Run for Green &bull; Run for Child Protection</p>
+
+    <div class="countdown" id="countdown">
+      <div class="countdown__box"><span id="cd-days">00</span><small>Days</small></div>
+      <div class="countdown__box"><span id="cd-hours">00</span><small>Hours</small></div>
+      <div class="countdown__box"><span id="cd-mins">00</span><small>Minutes</small></div>
+      <div class="countdown__box"><span id="cd-secs">00</span><small>Seconds</small></div>
+    </div>
+
+    <a href="#register" class="btn btn--primary btn--pill">✏️ Register Now</a>
+  </div>
+</section>
+
+<!-- ===================== 2. MARATHON SCHEDULE ===================== -->
+<section class="section" id="schedule">
+  <div class="container">
+    <h2 class="section__title">Event Schedule</h2>
+    <p class="section__lead">Race day, minute by minute.</p>
+
+    <div class="timeline">
+      <article class="timeline__card">
+        <span class="pill pill--dark">👤 05:30 AM</span>
+        <h3>Registration &amp; Bib Collection</h3>
+        <p>Participants check-in and collect race bibs</p>
+      </article>
+      <article class="timeline__card">
+        <span class="pill pill--dark">🏁 06:00 AM</span>
+        <h3>21KM Half Marathon Start</h3>
+        <p>Elite runners start</p>
+      </article>
+      <article class="timeline__card">
+        <span class="pill pill--dark">🏁 06:30 AM</span>
+        <h3>10KM Race Start</h3>
+        <p>Elite runners start</p>
+      </article>
+      <article class="timeline__card">
+        <span class="pill pill--dark">🏁 07:00 AM</span>
+        <h3>5KM Fun Run Start</h3>
+        <p>Families, first-timers and walkers welcome</p>
+      </article>
+      <article class="timeline__card">
+        <span class="pill pill--dark">🎉 07:30 AM</span>
+        <h3>Community Games &amp; Exhibitions</h3>
+        <p>Networking, refreshments and activities at the race village</p>
+      </article>
+      <article class="timeline__card">
+        <span class="pill pill--dark">🏆 11:00 AM</span>
+        <h3>Awards &amp; Closing Ceremony</h3>
+        <p>Prize giving for all race categories</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3. PAYMENT ===================== -->
+<section class="section section--dark" id="payment">
+  <div class="container">
+    <p class="eyebrow eyebrow--pill">💳 Easy Payment</p>
+    <h2 class="section__title section__title--light">How to Register &amp; Pay</h2>
+    <p class="section__lead section__lead--light">Simple steps to secure your spot in the marathon</p>
+
+    <div class="pay-card">
+      <div class="pay-card__icon">💰</div>
+      <h3>Pay via M-Pesa / Tigo Pesa / Airtel Money</h3>
+      <p>Use the PayBill number below to make your payment</p>
+
+      <div class="pay-number">
+        <span id="paybillNumber">6347756</span>
+        <button class="copy-btn" id="copyPaybill" type="button">📋 Copy</button>
+      </div>
+
+      <p class="pay-card__meta"><strong>Business Name:</strong> Tabora Green Marathon</p>
+      <p class="pay-card__meta"><strong>Reference/Account:</strong> <span class="ref-chip">TABORA GREEN MARATHON</span></p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <span class="step__circle">1</span>
+        <h3>Make Payment</h3>
+        <p>Send payment via M-Pesa/Tigo Pesa to PayBill 6347756</p>
+      </div>
+      <div class="step">
+        <span class="step__circle">2</span>
+        <h3>Save Transaction ID</h3>
+        <p>Copy the confirmation code from your payment message</p>
+      </div>
+      <div class="step">
+        <span class="step__circle">3</span>
+        <h3>Fill Registration Form</h3>
+        <p>Complete the form with your details and Transaction ID</p>
+      </div>
+      <div class="step">
+        <span class="step__circle">4</span>
+        <h3>Upload Receipt</h3>
+        <p>Upload screenshot of payment for verification</p>
+      </div>
+    </div>
+
+    <div class="alt-payment">
+      <p class="alt-payment__title">🏛 Alternative Payment Method</p>
+      <p>Bank Transfer: CRDB Bank Tanzania | Account: Tabora Marathon Association | Account No: 01-52384434700 | Swift: CORUTZTZ</p>
+    </div>
+
+    <div class="notice">
+      <span>ℹ️</span>
+      <p>Your Transaction ID is required for registration verification. For assistance, call <strong>+255 752 591 613</strong> | <strong>+255 622 664 122</strong> or email <strong>info@taboramarathon.or.tz</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 4. REGISTER FOR MARATHON FORUM ===================== -->
+<section class="section section--tint" id="register">
+  <div class="container">
+    <h2 class="section__title section__title--center">Register for Marathon &amp; Forum</h2>
+    <p class="section__lead section__lead--center">Complete the form below to secure your spot</p>
+
+    <form class="form-card" id="registerForm" novalidate>
+      <div class="form__field">
+        <label for="fullName">Full Name *</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+        <span class="form__error"></span>
+      </div>
+
+      <div class="form__row">
+        <div class="form__field">
+          <label for="gender">Gender *</label>
+          <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select gender</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+          <span class="form__error"></span>
+        </div>
+        <div class="form__field">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" placeholder="0712345678" required>
+          <span class="form__error"></span>
+        </div>
+      </div>
+
+      <div class="form__field">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+        <span class="form__error"></span>
+      </div>
+
+      <div class="form__row">
+        <div class="form__field">
+          <label for="region">Region *</label>
+          <input type="text" id="region" name="region" placeholder="e.g., Tabora" required>
+          <span class="form__error"></span>
+        </div>
+        <div class="form__field">
+          <label for="district">District *</label>
+          <input type="text" id="district" name="district" placeholder="e.g., Tabora Municipal" required>
+          <span class="form__error"></span>
+        </div>
+      </div>
+
+      <div class="form__row">
+        <div class="form__field">
+          <label for="category">Run Category *</label>
+          <select id="category" name="category" required>
+            <option value="" disabled selected>Select run category</option>
+            <option>5KM Fun Run - 35,000 TZS</option>
+            <option>10KM Run - 45,000 TZS</option>
+            <option>21KM Half Marathon - 60,000 TZS</option>
+          </select>
+          <span class="form__error"></span>
+        </div>
+        <div class="form__field">
+          <label for="tshirt">T-Shirt Size *</label>
+          <select id="tshirt" name="tshirt" required>
+            <option value="" disabled selected>Select size</option>
+            <option>Small (S)</option>
+            <option>Medium (M)</option>
+            <option>Large (L)</option>
+            <option>X-Large (XL)</option>
+            <option>XX-Large (XXL)</option>
+          </select>
+          <span class="form__error"></span>
+        </div>
+      </div>
+
+      <div class="form__field">
+        <label for="transactionId">Transaction ID *</label>
+        <input type="text" id="transactionId" name="transactionId" placeholder="Enter M-Pesa/Tigo Pesa/Bank Transfer Reference Number" required>
+        <small class="form__hint">The confirmation code you received after payment</small>
+        <span class="form__error"></span>
+      </div>
+
+      <div class="form__field">
+        <label for="receipt">Upload Payment Receipt/Screenshot *</label>
+        <input type="file" id="receipt" name="receipt" accept=".jpg,.jpeg,.png,.pdf" required>
+        <small class="form__hint">Upload a clear screenshot showing your Transaction ID (JPG, PNG, PDF - Max 5MB)</small>
+        <span class="form__error"></span>
+      </div>
+
+      <button type="submit" class="btn btn--primary btn--block">✅ Complete Registration</button>
+      <p class="form__success" id="formSuccess">🎉 Thank you! Your registration has been received. Our team will verify your payment and email your confirmation shortly.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ===================== 5 & 6. SPONSORS / SUPPORTERS ===================== -->
+<section class="section" id="sponsors">
+  <div class="container">
+    <p class="eyebrow eyebrow--pill eyebrow--soft">🏅 Our Trusted Partners</p>
+    <h2 class="section__title section__title--center">Sponsors &amp; Supporters</h2>
+    <p class="section__lead section__lead--center">Thank you to our generous sponsors for making Tabora Green Marathon 2026 possible</p>
+
+    <h3 class="tier-title">Platinum Sponsors</h3>
+    <div class="sponsor-grid sponsor-grid--2">
+      <article class="sponsor-card">
+        <span class="sponsor-card__dot"></span>
+        <h4>TEEY INUKA MICROFINANCE</h4>
+        <p>Leading financial institution supporting community sports</p>
+      </article>
+      <article class="sponsor-card">
+        <span class="sponsor-card__dot"></span>
+        <h4>Bobo Decor</h4>
+        <p>Beautiful Living Starts Here</p>
+      </article>
+    </div>
+
+    <h3 class="tier-title">Gold Sponsors</h3>
+    <div class="sponsor-grid sponsor-grid--2">
+      <article class="sponsor-card">
+        <span class="sponsor-card__dot"></span>
+        <h4>Magic 101</h4>
+        <p>Your favourite radio station, on air with you every step</p>
+      </article>
+      <article class="sponsor-card">
+        <span class="sponsor-card__dot"></span>
+        <h4>Winterfell City Hall</h4>
+        <p>Proud venue &amp; community events partner</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 7. FEATURED PARTNERS ===================== -->
+<section class="section section--tint" id="partners">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">🏢 Featured Partners</p>
+    <h2 class="section__title section__title--center">Proudly supported by these organizations</h2>
+
+    <div class="partner-grid">
+      <div class="partner-card"><span class="partner-card__num">01</span><div class="partner-card__logo">CAMPION<br>SECURITY</div></div>
+      <div class="partner-card"><span class="partner-card__num">02</span><div class="partner-card__logo">TEEY INUKA<br>MICROFINANCE</div></div>
+      <div class="partner-card"><span class="partner-card__num">03</span><div class="partner-card__logo">SCW</div></div>
+      <div class="partner-card"><span class="partner-card__num">04</span><div class="partner-card__logo">WINTERFELL<br>CITY HALL</div></div>
+      <div class="partner-card"><span class="partner-card__num">05</span><div class="partner-card__logo">MAGIC 101</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 8. EVENT GALLERY ===================== -->
+<section class="section" id="gallery">
+  <div class="container">
+    <h2 class="section__title section__title--center">Event Gallery</h2>
+    <p class="section__lead section__lead--center">Moments from Tabora Green Marathon</p>
+
+    <div class="gallery-grid">
+      <figure class="gallery-card">
+        <button class="gallery-card__media" id="posterTrigger">
+          <img src="https://picsum.photos/id/1015/700/700" alt="Tabora Green Marathon runners">
+          <span class="gallery-card__badge">21K &bull; 10K &bull; 5K</span>
+        </button>
+        <figcaption>Tabora Green Marathon</figcaption>
+      </figure>
+
+      <figure class="gallery-card gallery-card--qr">
+        <div class="gallery-card__media gallery-card__media--blue">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=260x260&margin=10&color=1-54-122&bgcolor=255-255-255&data=TaboraGreenMarathon-15957109" alt="Scan to pay QR code" class="qr-img">
+          <span class="qr-code">15957109</span>
+          <span class="qr-tag">TABORA GREEN MARATHON</span>
+        </div>
+        <figcaption>Scan Kulipia</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 9. CONTACT US ===================== -->
+<section class="section section--tint" id="contact">
+  <div class="container">
+    <h2 class="section__title section__title--center">Contact Us</h2>
+    <p class="section__lead section__lead--center">Have questions? We're here to help</p>
+
+    <div class="contact__grid">
+      <form class="contact-card" id="contactForm" novalidate>
+        <h3>Send us a message</h3>
+        <div class="form__field">
+          <label for="cName" class="sr-only">Your Name</label>
+          <input type="text" id="cName" name="cName" placeholder="Your Name" required>
+          <span class="form__error"></span>
+        </div>
+        <div class="form__field">
+          <label for="cEmail" class="sr-only">Email Address</label>
+          <input type="email" id="cEmail" name="cEmail" placeholder="Email Address" required>
+          <span class="form__error"></span>
+        </div>
+        <div class="form__field">
+          <label for="cSubject" class="sr-only">Subject</label>
+          <input type="text" id="cSubject" name="cSubject" placeholder="Subject" required>
+          <span class="form__error"></span>
+        </div>
+        <div class="form__field">
+          <label for="cMessage" class="sr-only">Your Message</label>
+          <textarea id="cMessage" name="cMessage" rows="5" placeholder="Your Message" required></textarea>
+          <span class="form__error"></span>
+        </div>
+        <button type="submit" class="btn btn--primary btn--block">📨 Send Message</button>
+        <p class="form__success" id="contactSuccess">✅ Message sent. We'll get back to you shortly.</p>
+      </form>
+
+      <div class="contact-card contact-card--info">
+        <h3>Contact Information</h3>
+        <ul class="contact-info-list">
+          <li><span class="contact-info-list__icon">📞</span><div><strong>Phone</strong><br>+255 752 591 613 | +255 622 664 122</div></li>
+          <li><span class="contact-info-list__icon">✉️</span><div><strong>Email</strong><br>info@taboramarathon.or.tz</div></li>
+          <li><span class="contact-info-list__icon">📍</span><div><strong>Location</strong><br>Tabora, Tanzania</div></li>
+        </ul>
+        <a href="https://wa.me/255752591613" target="_blank" rel="noopener" class="btn btn--outline btn--block">💬 WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <span class="footer__icon">🌲</span>
+    <h3>Tabora Green Marathon &amp; Malezi Bora Forum 2026</h3>
+    <p>Run for Health &bull; Run for Green &bull; Run for Child Protection</p>
+    <hr>
+    <p class="footer__copy">&copy; <span id="year"></span> Tabora Green Marathon. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- Lightbox for gallery poster -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
